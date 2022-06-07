@@ -707,7 +707,7 @@ class _MyAppState extends State<MyApp> {
                                                                                       style: TextStyle(color: Colors.white, fontSize: 25),
                                                                                     ),
                                                                                     onPressed: () {
-                                                                                      quantity < 2 && titleController2.text != null
+                                                                                      quantity < 2 && titleController2.text == null
                                                                                           ? Container()
                                                                                           : showModalBottomSheet(
                                                                                               isScrollControlled: true,
